@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our ILS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-dark bg-light sidebar" style="width: 200px; height: 100vh;">
+        <span class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none text-center">
+            <img src="../../assets/logo.png" class="w-75 h-80" alt="main-logo">
+        </span>
+        <hr>
+        <ul class="nav flex-column">
+            <li class="nav-item py-1 d-flex align-items-center">
+                <a href="../index.html" class="nav-link text-dark d-flex align-items-center fs-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill me-2" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                    </svg>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="py-1 d-flex align-items-center">
+                <a href="../component/dashboard.html" class="nav-link text-dark d-flex align-items-center fs-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill me-2" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                    </svg>
+                    <span>Member</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown py-1 d-flex align-items-center fs-4">
+                <a href="#" class="nav-link text-dark dropdown-toggle d-flex align-items-center" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list-ul me-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg>
+                    <span>Activities</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="../component/sihklab.html">21st SIKHLAB Script</a></li>
+                    <li><a class="dropdown-item" href="../component/siklabpostv.html">SIHKLAB </a></li>
+                    <li><a class="dropdown-item" href="../component/stemX.html">Stem X Tech Week </a></li>
+                    <li><a class="dropdown-item" href="../component/P.E.html">P.E</a></li>
+                    <li><a class="dropdown-item" href="../component/Philog1.html">PHILO Gr1</a></li>
+                    <li><a class="dropdown-item" href="../component/Philog2.html">PHILO Gr2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <section id="sect1">
+            <div id="customerCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img src="../../assets/stemxtech/417234969_2820654501430190_3119327382103933332_n.jpg" class="w-25" alt="...">
+               
+                                        </div>
+                        <div class="carousel-item">
+                            <video width="500" height="500" controls>
+                                <source src="../../assets/philo/gp1/1.png" type="video/mp4">
+                            </video>
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                </div> -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#customerCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#customerCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const carousel = [
+    {
+        id: 1,
+        image: '../../assets/philo/gp1/1.png'
+    },
+    {
+        id: 2,
+        image: '../../assets/philo/gp1/2.png'
+    },
+    {
+        id: 3,
+        image: '../../assets/philo/gp1/3.png'
+    },
+    {
+        id: 4,
+        image: '../../assets/philo/gp1/4.png'
+    },
+    {
+        id: 5,
+        image: '../../assets/philo/gp1/5.png'
+    },
+    {
+        id: 6,
+        image: '../../assets/philo/gp1/6.png'
+    },
+ {
+        id: 7,
+        image: '../../assets/philo/gp1/7.png'
+    },
+    {
+        id: 8,
+        image: '../../assets/philo/gp1/8.png'
+    },
+    {
+        id: 9,
+        image: '../../assets/philo/gp1/9.png'
+    },
+    {
+        id: 10,
+        image: '../../assets/philo/gp1/10.png'
+    },
+    {
+        id: 11,
+        image: '../../assets/philo/gp1/11.png'
+    }
+    ,
+    {
+        id: 12,
+        image: '../../assets/philo/gp1/12.png'
+    },
+    {
+        id: 13,
+        image: '../../assets/philo/gp1/13.png'
+    },
+    {
+        id: 14,
+        image: '../../assets/philo/gp1/14.png'
+    },
+    {
+        id: 15,
+        image: '../../assets/philo/gp1/15.png'
+    },
+    {
+        id: 16,
+        image: '../../assets/philo/gp1/16.png'
+    },
+    {
+        id: 17,
+        image: '../../assets/philo/gp1/17.png'
+    },
+    {
+        id: 18,
+        image: '../../assets/philo/gp1/18.png'
+    },
+    {
+        id: 19,
+        image: '../../assets/philo/gp1/19.png'
+    },
+    {
+        id: 20,
+        image: '../../assets/philo/gp1/20.png'
+    },
+    {
+        id: 21,
+        image: '../../assets/philo/gp1/21.png'
+    },
+    {
+        id: 22,
+        image: '../../assets/philo/gp1/22.png'
+    },
+    {
+        id: 23,
+        image: '../../assets/philo/gp1/23.png'
+    },
+    {
+        id: 24,
+        image: '../../assets/philo/gp1/24.png'
+    },
+    {
+        id: 25,
+        image: '../../assets/philo/gp1/25.png'
+    },
+    {
+        id: 26,
+        image: '../../assets/philo/gp1/26.png'
+    },
+    {
+        id: 27,
+        image: '../../assets/philo/gp1/27.png'
+    },
+    {
+        id: 28,
+        image: '../../assets/philo/gp1/28.png'
+    },
+    {
+        id: 29,
+        image: '../../assets/philo/gp1/29.png'
+    }
+
+];
+
+let customerCarousel = document.getElementById("customerCarousel");
+      let innerCarousel = document.createElement("div");
+      innerCarousel.className = "carousel-inner";
+
+      carousel.forEach((item) => {
+        let carouselItem = document.createElement("div");
+        carouselItem.className = "carousel-item";
+
+        let img = document.createElement("img");
+        img.src = item.image;
+        img.className = "w-25 h-25";
+
+        carouselItem.appendChild(img);
+        innerCarousel.appendChild(carouselItem);
+      });
+
+      customerCarousel.appendChild(innerCarousel);
+
+      // set first item as active
+      document.querySelector(".carousel-item").classList.add("active");
+
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
