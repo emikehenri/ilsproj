@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our ILS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-dark bg-light sidebar" style="width: 200px; height: 100vh;">
+        <span class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none text-center">
+            <img src="../../assets/logo.png" class="w-75 h-80" alt="main-logo">
+        </span>
+        <hr>
+        <ul class="nav flex-column">
+            <li class="nav-item py-1 d-flex align-items-center">
+                <a href="../index.html" class="nav-link text-dark d-flex align-items-center fs-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill me-2" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                    </svg>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="py-1 d-flex align-items-center">
+                <a href="../component/dashboard.html" class="nav-link text-dark d-flex align-items-center fs-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill me-2" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                    </svg>
+                    <span>Member</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown py-1 d-flex align-items-center fs-4">
+                <a href="#" class="nav-link text-dark dropdown-toggle d-flex align-items-center" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list-ul me-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg>
+                    <span>Activities</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="../component/sihklab.html">21st SIKHLAB Script</a></li>
+                    <li><a class="dropdown-item" href="../component/siklabpostv.html">SIHKLAB </a></li>
+                    <li><a class="dropdown-item" href="../component/P.E.html">P.E</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <section id="sect1">
+            <div id="customerCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../../assets/siklabjp.jpg" class="w-25" alt="...">
+                        <div class="carousel-caption">
+                            <h5>DINESTIYA NG KAPANGYARIHAN</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/siklabjp2.jpg" class="w-25" alt="...">
+                        <div class="carousel-caption">
+                            <h5>KALAKARANG NAKATANIM SA BATYA NG HAPIS</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/siklabjp1.jpg" class="w-25" alt="...">
+                        <div class="carousel-caption">
+                            <h5>SULYAP NG PAG-ASA</h5>
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                            <video width="500" height="500" controls>
+                                <source src="../../assets/KineticTypoITMAWE103.mp4" type="video/mp4">
+                            </video>
+                            <div class="carousel-caption">
+                                <h5>SULYAP NG PAGASA video</h5>
+                            </div>
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#customerCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#customerCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
