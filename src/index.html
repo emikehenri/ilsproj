@@ -13,7 +13,6 @@
             <ul class = "navlist">
              <li><a href="../src/index.html">Home</a></li>
              <li><a href="component/siklabpostv.html">Activity</a></li>
-             <li><a href="./component/dashboard.html">peer eval</a></li>
              <li><a href="./component/dashboard.html">members</a></li>
             
             </ul>
@@ -25,6 +24,13 @@
               <button class="button"><span></span>CHECK IT OUT</button>
               
             </div>
-            <script type="module" src = "script.js"></script>
+            <script>
+                const checkbtn = document.querySelector(".button");
+
+                checkbtn.addEventListener("click", () => {
+                window.location.href = "./component/dashboard.html";                
+                });
+
+            </script>
 </body>
 </html>
