@@ -1,7 +1,7 @@
 const carousels = [
     {
       id: 1,
-      title: "tech",
+      title: "stemxtech",
       images: [
         "../../assets/stemxtech/stem1.jpg",
         "../../assets/stemxtech/stem2.jpg",
@@ -10,12 +10,6 @@ const carousels = [
         "../../assets/stemxtech/stem6.jpg",
         "../../assets/stemxtech/stem7.jpg",
         "../../assets/stemxtech/stem8.jpg",
-      ],
-    },
-    {
-      id: 2,
-      title: "stem",
-      images: [
         "../../assets/stemxtech/tech/tech1.jpg",
         "../../assets/stemxtech/tech/tech2.jpg",
         "../../assets/stemxtech/tech/tech3.jpg",
@@ -26,7 +20,7 @@ const carousels = [
         "../../assets/stemxtech/tech/tech8.jpg",
         "../../assets/stemxtech/tech/tech9.jpg",
         "../../assets/stemxtech/tech/tech10.jpg",
-        "../../assets/stemxtech/tech/tech11.jpg",
+        "../../assets/stemxtech/tech/tech11.jpg"
       ],
     },
   ];
