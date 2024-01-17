@@ -82,7 +82,7 @@ const carousels = [
     {
       id: 17,
       title: "stemxtech",
-      images: '../../assets/stemxtech/stem18.jpg'
+      images: '../../assets/stemxtech/stem100.jpg'
     },
     {
       id: 18,
