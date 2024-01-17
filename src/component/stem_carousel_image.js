@@ -42,57 +42,57 @@ const carousels = [
     {
       id: 9,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech1.jpg'
+      images: '../../assets/stemxtech/stem10.jpg'
     },
     {
       id: 10,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech2.jpg'
+      images: '../../assets/stemxtech/stem11.jpg'
     },
     {
       id: 11,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech3.jpg'
+      images: '../../assets/stemxtech/stem12.jpg'
     },
     {
       id: 12,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech4.jpg'
+      images: '../../assets/stemxtech/stem13.jpg'
     },
     {
       id: 13,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech5.jpg'
+      images: '../../assets/stemxtech/stem14.jpg'
     },
     {
       id: 14,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech6.jpg'
+      images: '../../assets/stemxtech/stem15.jpg'
     },
     {
       id: 15,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech7.jpg'
+      images: '../../assets/stemxtech/stem16.jpg'
     },
     {
       id: 16,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech8.jpg'
+      images: '../../assets/stemxtech/stem17.jpg'
     },
     {
       id: 17,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech9.jpg'
+      images: '../../assets/stemxtech/stem18.jpg'
     },
     {
       id: 18,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech10.jpg'
+      images: '../../assets/stemxtech/stem19.jpg'
     },
     {
       id: 19,
       title: "stemxtech",
-      images: '../../assets/stemxtech/tech11.jpg'
+      images: '../../assets/stemxtech/stem20.jpg'
     },
   ];
   
